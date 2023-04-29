@@ -1,0 +1,56 @@
+
+.product-form{
+    border: 1.2px solid #0c0c3f;
+    margin: 3rem auto;
+    width: 45%;
+    padding: 1em;
+    text-align: center;
+}
+
+.form-title{
+    color: #0c0c3f;
+}
+
+label{
+    font-weight: 700;
+    color:#0c0c3f ;
+}
+
+
+
+@media screen and (max-width: 776px) {
+    .product-form{
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .product-form{
+        font-size: small;
+    }
+    .desc-label{
+        font-size: 16px;
+    }
+}
+
+.product-field-box{
+    margin: 2rem 0;
+}
+.product-field{
+    width: 70%;
+    height: 25px;
+    margin-left:1rem ;
+}
+
+.product-field:focus{
+    outline: 0.8px solid #0c0c3f;
+}
+.product-area{
+    width: 90%;
+    height: 75px;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+.addProduct-btn{
+    text-align: center;
+}

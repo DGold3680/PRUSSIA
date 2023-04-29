@@ -1,0 +1,19 @@
+
+.footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0.5em;
+    background-color: rgb(39, 37, 37);
+    height: 36px;
+    color:rgb(150, 48, 99) ;
+}
+
+.io{
+   color: rgb(39, 37, 37); 
+   color: #0c0c3f;
+   color: rgb(150, 48, 99);
+}
+
